@@ -63,7 +63,11 @@ html, body {
 
 .feature {
   height: 500px;
-  background: url("https://s3.amazonaws.com/codecademy-content/projects/excursion/camp.png") no-repeat center;
+  background: url("https://s3.amazonaws.com/codecademy-content/projects/excursion/camp.png") no-repeat center center;
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
 }
 
 .footer {
